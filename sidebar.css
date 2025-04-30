@@ -1,0 +1,144 @@
+body{
+  padding-left: 90px;
+  background-color: rgb(248, 244, 244);
+}
+/* .side-bar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    top:50px;
+    background-color:white;
+    z-index: 1;
+  }
+  .sidebar-box{
+    height:76px;
+    padding-top: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: roboto,arial;
+  }
+  .sidebar-box:hover{
+    background-color: rgb(233, 233, 233);
+  }
+  .sidebar-image{
+    display: flex;
+    width: 24px;
+    margin-bottom: 10px;
+  
+   
+  }
+  .sidebar-des{
+     font-size: 10px;
+  }
+   */
+   .side-bar,.exside-bar{
+    display: none;
+  }
+  /* sidebar */
+  @media (min-width:0px) and (max-width:800px){
+    .main-content{
+      padding-left: 10px;
+    }
+    .side-bar{
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 75px;
+      top:50px;
+      background-color:white;
+      z-index: 1;
+    }
+    .sidebar-box{
+      height:76px;
+      padding-top: 5px;
+      margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+      font-family: roboto,arial;
+    }
+    .sidebar-box:hover{
+      background-color: rgb(233, 233, 233);
+    }
+    .sidebar-image{
+      display: flex;
+      width: 24px;
+      margin-bottom: 10px;
+    }
+    .sidebar-des{
+       font-size: 10px;
+    }
+  }
+  
+  /* extended sidebar */
+  @media(min-width:801px){
+    .main-content{
+      padding-left: 150px;
+    }
+    .exside-bar{
+      display:flex;
+      flex-direction: column;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 220px;
+      top:50px;
+      background-color:white;
+      z-index: 1;
+    }
+    .horizontal-layout{
+      display:flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    .horizontal-layout:hover{
+      background-color: gray;
+    }
+    .exsidebar-box{
+      height:36px;
+      margin-bottom: 20px;
+      display:flex;
+      position:relative;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+      flex-direction:column;
+      cursor: pointer;
+      font-family: roboto,arial;
+      margin-top: 10px;
+    }
+    .exsidebar-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 20px;
+      top:0;
+      width: 40px;
+    }
+    .exsidebar-des{
+      display: flex;
+      left: 70px;
+       font-size: 18px;
+       position: absolute;
+       align-items: center;
+       justify-content: center;
+    
+    }
+    
+  }
+  
+   
+
