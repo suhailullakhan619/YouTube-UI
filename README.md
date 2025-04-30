@@ -1,2 +1,2 @@
 # YouTube-Clone
-Created a YouTube user interface using HTML and CSS
+Created a  responsive YouTube user interface using HTML and CSS 
